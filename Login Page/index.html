@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login Project</title>
+</head>
+
+<body>
+    <!-- Banner and Menu -->
+    <div class="maincon">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Login -->
+    <div class="logincon">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username">
+      
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password">
+      
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+      <!-- Sign Up -->
+      <div class="signup">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="user" name="username" placeholder="Username">
+
+            <label for="password">Password</label>
+            <input type="password" id="pass" name="password" placeholder="Password">
+
+            <button type="submit">Sign Up</button>
+        </form>
+      </div>
+
+      <!-- Message -->
+      <div id="message"></div>
+
+      <!-- Script -->
+      <script src="script.js"></script>
+</body>
+</html>
